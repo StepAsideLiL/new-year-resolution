@@ -1,3 +1,94 @@
+/* ======================================================= */
+/* ================ Initializing CSS ===================== */
+/* ======================================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: red;
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #005FAC;
+    background-color: #FFFFFF;
+}
+
+
+/* ======================================================= */
+/* ================ Font Style =========================== */
+/* ======================================================= */
+/* Text properties of Title */
+.b-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+/* Text properties of description, list */
+.s-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+/* ======================================================= */
+/* ================ Colors =============================== */
+/* ======================================================= */
+/* Primary and Secondary Text Color */
+.p-color {
+    color: #151414;
+}
+
+.s-color {
+    color: #444343;
+}
+
+
+/* ======================================================= */
+/* ================ Header =============================== */
+/* ======================================================= */
+header.header {
+    text-align: right;
+    background-image: url(./assets/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    width: 100%;
+    padding-top: 200px;
+    padding-right: 120px;
+}
+
+header.header .header-container {
+    width: 500px;
+    margin-left: auto;
+}
+
+header.header h1,
+header.header p {
+    color: #FFFFFF;
+}
+
+header.header h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    margin-bottom: 24px;
+}
+
+header.header p {
+    margin-bottom: 32px;
+}
+
+header.header a {
+    padding: 20px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 5px;
 }
