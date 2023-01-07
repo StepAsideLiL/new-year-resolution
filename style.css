@@ -17,6 +17,10 @@ a {
     background-color: #FFFFFF;
 }
 
+li {
+    list-style: none;
+}
+
 
 /* ======================================================= */
 /* ================ Font Style =========================== */
@@ -62,6 +66,7 @@ header.header {
     width: 100%;
     padding-top: 200px;
     padding-right: 120px;
+    margin-bottom: 130px;
 }
 
 header.header .header-container {
@@ -92,3 +97,55 @@ header.header a {
     line-height: 23px;
     border-radius: 5px;
 }
+
+
+/* ======================================================= */
+/* ================ Main ================================= */
+/* ======================================================= */
+main {
+    width: 1072px;
+    margin: 0 auto;
+}
+
+/* ================ Previous Year Section ================ */
+.pre-year {
+    margin-bottom: 130px;
+}
+
+.pre-year .pre-year-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.pre-year .pre-year-item {
+    width: 50%
+}
+
+.pre-year .img-item {
+    padding-right: 90px;
+    text-align: right;
+}
+
+.pre-year img {
+    width: 500px;
+}
+
+.pre-year .text-item {
+    padding-left: 90px;
+    padding-bottom: 80px;
+}
+
+.pre-year h1 {
+    margin-bottom: 24px;
+}
+
+.pre-year p {
+    margin-bottom: 16px;
+}
+
+.pre-year li:before {
+    content:"\2713\0020";
+    color: #16D887;
+}
+
