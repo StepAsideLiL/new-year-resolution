@@ -145,7 +145,39 @@ main {
 }
 
 .pre-year li:before {
-    content:"\2713\0020";
+    content: "\2713\0020";
     color: #16D887;
 }
+
+
+/* ================ My Plan Section ====================== */
+.my-plan {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.my-plan h1 {
+    margin-bottom: 50px;
+}
+
+.my-plan .plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-plan .plans .plan {
+    width: 400px;
+}
+
+.my-plan .plans img {
+    width: 90px;
+    margin-bottom: 12px;
+}
+
+.my-plan .plans h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
 
