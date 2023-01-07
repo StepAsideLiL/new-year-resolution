@@ -15,11 +15,13 @@ a {
     text-decoration: none;
     color: #005FAC;
     background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     border-radius: 5px;
 }
 
 a:hover {
-    background-color: #99d0fd;
+    color: #FFFFFF;
+    background-color: #005FAC00;
 }
 
 li {
@@ -212,3 +214,75 @@ main {
     line-height: 23px;
 }
 
+
+/* ======================================================= */
+/* ================ Footer =============================== */
+/* ======================================================= */
+.footer {
+    background-color: #151414;
+    padding: 130px 0;
+    color: #FFFFFF;
+}
+
+.footer .footer-container {
+    width: 1072px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-column {
+    width: 400px;
+}
+
+.footer h1,
+.footer p {
+    margin-bottom: 16px;
+}
+
+.footer a {
+    display: inline-block;
+    color: inherit;
+    background-color: inherit;
+    margin-right: 16px;
+    border: none;
+}
+
+.footer h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+.footer input[type="text"] {
+    background-color: inherit;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.footer input[type="text"]::placeholder {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer input[type="submit"] {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 20px 36px;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    border: 1px solid #005FAC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer input[type="submit"]:hover {
+    background-color: inherit;
+}
