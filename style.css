@@ -255,17 +255,21 @@ main {
     margin-bottom: 30px;
 }
 
-.footer input[type="text"] {
+.footer input[type="email"] {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
     background-color: inherit;
     padding: 20px;
     width: 300px;
-    border: 1px solid #F3F3F3;
+    border: 1px solid #999999;
     border-radius: 5px;
     margin-bottom: 16px;
 }
 
 .footer input[type="text"]::placeholder {
-    color: #F3F3F3;
+    color: #999999;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
