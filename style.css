@@ -187,6 +187,47 @@ main {
 }
 
 
+/* ================ Testimonial Section ================== */
+.partner {
+    margin-bottom: 130px;
+}
+
+.partner table .info,
+.partner table .testimony {
+    width: 50%;
+    padding: 20px 40px;
+}
+
+.partner table .info {
+    text-align: right;
+}
+
+.partner table caption {
+    margin-bottom: 30px;
+}
+
+.partner table .info h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.partner table .info p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 16px;
+}
+
+.partner table img {
+    border-radius: 50%;
+}
+
+.partner table .testimony p {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+
 /* ================ Call New Section ===================== */
 .call-now {
     margin-bottom: 130px;
